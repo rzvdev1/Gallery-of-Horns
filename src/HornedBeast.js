@@ -33,15 +33,19 @@ function HornedBeast() {
     },
   ];
 
-  return (
-    <React.Fragment>
-      <h2>this is a h2</h2>
-      <img />
-      <img />
-      <p>this is a p </p>
-      {arr.forEach((item) => console.log(item))}
-    </React.Fragment>
-  );
+  const newArr = [];
+
+  arr.forEach((item) => {
+    newArr.push(
+      <React.Fragment key={item._id}>
+        <h2>{item.title}</h2>
+        <img src={item.image_url} alt={item.title} title={item.title} />
+        <p>{item.description}</p>
+      </React.Fragment>
+    );
+  });
+
+  return <React.Fragment>{newArr}</React.Fragment>;
 }
 
 export default HornedBeast;
