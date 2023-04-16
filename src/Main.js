@@ -6,7 +6,7 @@ class Main extends React.Component {
     return (
       <React.Fragment>
         <h2>This is main</h2>
-        <title>Horn</title>
+        <title></title>
         <HornedBeast></HornedBeast>
       </React.Fragment>
     );
