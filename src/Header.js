@@ -4,7 +4,7 @@ class Header extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <h1>This is a title</h1>
+        <h1>Welcome to my Gallery</h1>
       </React.Fragment>
     );
   }
