@@ -71,27 +71,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 #### Feature #1: Display Images
 
-Number and name of feature: **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\***
+Number and name of feature: Use data JSON to render on page
 
-Estimate of time needed to complete: **\_**
+Estimate of time needed to complete: 15 mins
 
-Start time: **\_**
+Start time: 7:00
 
-Finish time: **\_**
+Finish time: 7:05
 
-Actual time needed to complete: **\_**
+Actual time needed to complete: 2 mins
 
 #### Feature #2: Allow Users to Favorite Individual Beasts
 
-Number and name of feature: **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\***
+Number and name of feature: Add heart to button
 
-Estimate of time needed to complete: **\_**
+Estimate of time needed to complete: 30 mins
 
-Start time: **\_**
+Start time: 7:05
 
-Finish time: **\_**
+Finish time: 7:25
 
-Actual time needed to complete: **\_**
+Actual time needed to complete: 20 mins
 
 #### Feature 3: Bootstrap
 
@@ -99,8 +99,8 @@ Number and name of feature: **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\***
 
 Estimate of time needed to complete: **\_**
 
-Start time: **\_**
+Start time: 7:27
 
-Finish time: **\_**
+Finish time: 8:15
 
-Actual time needed to complete: **\_**
+Actual time needed to complete: 30 mins
