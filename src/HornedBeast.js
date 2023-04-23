@@ -15,10 +15,19 @@ class HornedBeast extends React.Component {
     });
   };
 
+  handelModalEvent = () => {
+    this.props.selectBeasts(this.props.beast);
+    this.props.showHornedBeastModal();
+  };
+
   render() {
     return (
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={this.props.imgUrl} />
+        <Card.Img
+          variant="top"
+          src={this.props.imgUrl}
+          onClick={this.handelModalEvent}
+        />
         <Card.Body>
           <Card.Title>{this.props.title}</Card.Title>
           <Card.Text>{this.props.description}</Card.Text>
