@@ -1,0 +1,21 @@
+.beasts {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  color: #212a3e;
+  padding: 15px;
+}
+img {
+  height: 18rem;
+}
+
+footer {
+  text-align: center;
+}
+div.card {
+  background-color: #f1f6f9;
+}
+body {
+  background-color: #eeeeee;
+}
