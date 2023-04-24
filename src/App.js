@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import Main from './Main';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import HornedBeastModal from './HornedBeastModal';
 
 class App extends React.Component {
@@ -34,24 +33,21 @@ class App extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
+      <>
         <Header></Header>
-        <Main>
+        <Main
           showHornedBeastModal={this.showHornedBeastModal}
           selectBeasts={this.selectBeasts}
-        </Main>
-        <HornedBeastModal>
+        ></Main>
+        <HornedBeastModal
           showModal={this.state.showModal}
           hideHornedBeastModal={this.hideHornedBeastModal}
-          beast={this.state.beasts}
-        </HornedBeastModal>
+          beasts={this.state.beasts}
+        ></HornedBeastModal>
         <Footer></Footer>
-      </React.Fragment>
+      </>
     );
   }
 }
 
 export default App;
-
-// resource I use
-//https://medium.com/@julianajlk/grids-rows-and-columns-in-react-bootstrap-c36a703c3c45

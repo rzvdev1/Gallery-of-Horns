@@ -16,7 +16,7 @@ class HornedBeast extends React.Component {
   };
 
   handelModalEvent = () => {
-    this.props.selectBeasts(this.props.beast);
+    this.props.selectBeasts(this.props.beasts);
     this.props.showHornedBeastModal();
   };
 
@@ -32,7 +32,11 @@ class HornedBeast extends React.Component {
           <Card.Title>{this.props.title}</Card.Title>
           <Card.Text>{this.props.description}</Card.Text>
           <Card.Text>{this.state.helloCounter} Favorites</Card.Text>
-          <Button variant="primary" onClick={this.incremenLikes}>
+          <Button
+            style={{ width: '75%' }}
+            variant="primary"
+            onClick={this.incremenLikes}
+          >
             Likes <Emoji symbol="❤️️" label="heart" />
           </Button>
         </Card.Body>
