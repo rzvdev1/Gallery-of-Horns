@@ -1,10 +1,10 @@
 .beasts {
   display: flex;
   flex-wrap: wrap;
+  padding: 10px;
 }
 .card {
   color: #212a3e;
-  padding: 15px;
 }
 img {
   height: 18rem;
@@ -18,4 +18,11 @@ div.card {
 }
 body {
   background-color: #eeeeee;
+}
+div.beasts {
+  row-gap: 2px;
+  column-gap: 0.7px;
+}
+h1 {
+  font-family: 'Ysabeau', sans-serif;
 }
