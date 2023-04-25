@@ -31,13 +31,16 @@ class HornedBeast extends React.Component {
         <Card.Body>
           <Card.Title>{this.props.title}</Card.Title>
           <Card.Text>{this.props.description}</Card.Text>
-          <Card.Text>{this.state.helloCounter} Favorites</Card.Text>
+          <Card.Text>
+            {this.state.helloCounter} <Emoji symbol="❤️️" label="heart" />{' '}
+            Favorites{' '}
+          </Card.Text>
           <Button
             style={{ width: '75%' }}
             variant="primary"
             onClick={this.incremenLikes}
           >
-            Likes <Emoji symbol="❤️️" label="heart" />
+            Like <Emoji symbol="🤟" label="heart" />
           </Button>
         </Card.Body>
       </Card>
